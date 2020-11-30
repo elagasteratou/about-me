@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./css/main.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  </head>
+  <body>
+      <nav class="primaryBackground">
+          <ul>
+            <li id="menu"><a href="index.html">Home</a</li>
+            <li id="menu"><a href="aboutme.html">About Me</a></li>
+            <li id="menu"><a id="active" href="contact.html">Contact Me</a></li>
+            <button class="button theme" onclick="darkMode()"> Change theme</button> 
+          </ul>
+          </nav>
+          <h1 id="h1">Contact</h1>
+    <p> If you want to get in touch please send me a message with this form below.</p>
+  <main>
+    <form class="formDisplay">
+      <label for="fullname"> Full name </label>
+      <input id="fullname" oninput="validateForm()" type="text" id="fullname" name="fullname" placeholder="First name "> </br>
+      <label for="topic"> Topic </label>
+      <input id="topic" oninput="validateForm()" type="text" id="topic" name="topic" placeholder="What do you want to talk about?"></br>
+      <label for="email"> email </label>
+      <input id="email" oninput="validateForm()" oninput= "emailValidity()" type="email" id="email" name="email" placeholder="example@email.com"></br>
+      <div id="invalidEmail"></div>
+      <label for="message">Message</label>
+      <input id="message" oninput="validateForm()" type="text" id="message" name="message" placeholder="Write to me"></br>
+      <input id="myContactForm" type="submit" value="Submit" class="button" oninput="validateForm()" onclick="showSubmittedText()" onclick="emailValidity()"disabled>
+    </form>
+    
+    <footer>
+      © 2020 by Michaela Gasteratou
+        <p><a href="https://twitter.com/MichaelaGast">Find me on twitter</a></p> 
+      </footer> 
+      <script src="./js/main.js"></script>
+    </main>
+    </body>
+  </html>
+  

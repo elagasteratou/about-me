@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./css/main.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>about me</title>
+  </head>
+
+  <body>
+    <nav class="primaryBackground">
+      <ul>
+        <li id="menu"><a href="index.html">Home</a></li>
+        <li id="menu"><a id="active" href="aboutme.html">About Me</a></li>
+        <li id="menu"><a href="contact.html">Contact Me</a></li>
+        <button class="button theme" onclick="darkMode()">Change theme</button>
+      </ul>
+    </nav>
+    <main>
+      <h1>About me</h1>
+      <p>
+        I am creative production graduate with exceptional organisation skills
+        and experience in various part time roles seeking entry roles in
+        Software development.I have completed the 8-week Web development course
+        at Code First Girls Web Development and now exploring a career in tech.
+        You can find me on
+        <a href="https://twitter.com/MichaelaGast">twitter</a>.
+      </p>
+      <ol>
+        <li>
+          <a href="https://www.freecodecamp.org/elagasteratou"
+            >My FreeCodeCamp Profile</a
+          >
+        </li>
+        <br />
+        <li>
+          <a href="https://www.codewars.com/users/elagasteratou"
+            >Codewars Profile</a
+          >
+        </li>
+        <br />
+        <li>
+          <a href="https://github.com/elagasteratou/"> My GitHub Profile</a>
+        </li>
+
+        <br />
+      </ol>
+      <h1>Past Projects</h1>
+      <p>Some of my favourite producing projects</p>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img
+            class="projectImg"
+            src="./images/CBB.jpg"
+            height="300px"
+            width="300px"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <img
+            class="projectImg"
+            src="./images/KK.jpg"
+            height="300px"
+            width="300px"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <img
+            class="projectImg"
+            src="./images/LB.jpg"
+            height="300px"
+            width="300px"
+          />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+      <footer>
+        © 2020 by Michaela Gasteratou
+        <p><a href="https://twitter.com/MichaelaGast">Find me on twitter</a></p>
+      </footer>
+      <script src="./js/main.js"></script>
+    </main>
+  </body>
+</html>

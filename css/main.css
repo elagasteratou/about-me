@@ -1,0 +1,281 @@
+/* colour scheme link: https://coolors.co/9ad5ca-acdde7-adb9e3-a379c9-b744b8 
+https://coolors.co/4c061d-712926-964b2e-bb6d36-e08f3e-b4c292-736f4e-3b3923*/
+.dark-mode {
+  background-color: #964b2e;
+}
+/*theme button */
+.theme {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+body {
+  font-family: sans-serif, arial;
+  background-color: #e08f3e;
+}
+a {
+  color: #e4e9d8;
+  text-decoration: none;
+  font-weight: 0.5rem;
+}
+a:hover {
+  color: #e3f0c1;
+}
+footer,
+.primaryBackground {
+  letter-spacing: 0.2rem;
+  background-color: #4c061d;
+  text-align: center;
+  width: 100%;
+  margin: -1rem;
+  color: #e08f3e;
+  padding: 1rem;
+}
+
+#active {
+  text-decoration: underline;
+}
+html {
+  font-size: 16px;
+}
+h1 {
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+
+  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: #4c061d;
+}
+h2 {
+  letter-spacing: 0.2rem;
+  padding-bottom: 1rem;
+  color: #4c061d;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+p {
+  color: #4c061d;
+  font-size: 1rem;
+  text-align: center;
+}
+li {
+  color: #4c061d;
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+img {
+  margin-bottom: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 10px;
+}
+#menu {
+  display: inline;
+  padding: 0.75rem;
+}
+
+nav {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+/* footer {
+  font-size: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+} */
+.formDisplay {
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: center;
+  justify-content: center;
+  max-width: 80%;
+  margin: auto;
+  color: #4c061d;
+  padding-bottom: 4rem;
+}
+#invalidEmail {
+  color: green;
+  text-decoration: underline;
+  font-weight: 1.2rem;
+}
+.button {
+  background-color: #4c061d;
+  color: #e08f3e;
+  border-color: #e08f3e;
+  border-radius: 40px;
+  letter-spacing: 0.2rem;
+  border-width: 0.2rem;
+  border-color: rgb(228, 163, 97);
+}
+.button:hover {
+  cursor: pointer;
+  color: #4c061d;
+  background-color: #e08f3e;
+  border-width: 0.2rem;
+  border-color: #4c061d;
+}
+.homePageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.homepageImg {
+  padding: 2rem;
+}
+.projectImg:hover {
+  transform: scale(1.5);
+}
+.homePageImg:hover {
+  opacity: 0.8;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin: auto;
+  padding-bottom: 7rem;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.projectImg {
+  width: 200px;
+  height: 200px;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -50px;
+  padding: 16px;
+  color: #4c061d;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 7px;
+  user-select: none;
+  margin-right: -4rem;
+  margin-left: -4rem;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #4c061d;
+}
+/*clock design*/
+.clock {
+  width: 200px;
+  height: 200px;
+  background-color: #4c061d;
+  border-radius: 100px;
+  position: relative;
+  margin: 3rem;
+}
+.clock:hover {
+  background-color: #e3f0c1;
+}
+.hand {
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  background-color: #e08f3e;
+  bottom: 99px;
+  left: 99px;
+  transform-origin: 50% 100%;
+}
+.minute {
+  height: 75px;
+  background-color: #e08f3e;
+}
+.second {
+  height: 90px;
+  background-color: red;
+}
+.number {
+  color: #e08f3e;
+  font-size: 1.2rem;
+}
+.twelve {
+  position: absolute;
+  top: 10px;
+  right: 90px;
+}
+.three {
+  position: absolute;
+  right: 10px;
+  bottom: 100px;
+}
+.six {
+  position: absolute;
+  bottom: 10px;
+  right: 100px;
+}
+.nine {
+  position: absolute;
+  left: 10px;
+  bottom: 100px;
+}
+
+/*media enquiry*/
+/*for desktop display*/
+@media only screen and (min-width: 768px) {
+  .homePageText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homePageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 4rem;
+    margin: 4rem;
+  }
+  .formDisplay {
+    margin-bottom: 4rem;
+  }
+  .project-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  .slideshow-container {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin: auto;
+    padding-bottom: 7rem;
+  }
+  .projectImg {
+    width: 400px;
+    height: 400px;
+  }
+}
