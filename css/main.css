@@ -1,8 +1,6 @@
 /* colour scheme link: https://coolors.co/9ad5ca-acdde7-adb9e3-a379c9-b744b8 
 https://coolors.co/4c061d-712926-964b2e-bb6d36-e08f3e-b4c292-736f4e-3b3923*/
-.dark-mode {
-  background-color: #964b2e;
-}
+
 /*theme button */
 .theme {
   margin-top: 1rem;
@@ -10,11 +8,12 @@ https://coolors.co/4c061d-712926-964b2e-bb6d36-e08f3e-b4c292-736f4e-3b3923*/
 }
 
 body {
+  
   font-family: sans-serif, arial;
-  background-color: #e08f3e;
+  background-color: #A63A50;
 }
 a {
-  color: #e4e9d8;
+  color: #CEC1B7;
   text-decoration: none;
   font-weight: 0.5rem;
 }
@@ -28,7 +27,7 @@ footer,
   text-align: center;
   width: 100%;
   margin: -1rem;
-  color: #e08f3e;
+  color: #F0E7D8;
   padding: 1rem;
 }
 
@@ -45,24 +44,24 @@ h1 {
   padding-bottom: 1rem;
   margin-bottom: 0.5rem;
   text-align: center;
-  color: #4c061d;
+  color: #F0E7D8;
 }
 h2 {
   letter-spacing: 0.2rem;
   padding-bottom: 1rem;
-  color: #4c061d;
+  color: #F0E7D8;
   font-size: 1rem;
   text-align: center;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 p {
-  color: #4c061d;
+  color: #F0E7D8;
   font-size: 1rem;
   text-align: center;
 }
 li {
-  color: #4c061d;
+  color: #F0E7D8;
   font-size: 1rem;
   text-align: left;
   padding-left: 1rem;
@@ -84,17 +83,7 @@ nav {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
 }
-/* footer {
-  font-size: 0.75rem;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-} */
+
 .formDisplay {
   border-radius: 7px;
   display: flex;
@@ -103,7 +92,7 @@ nav {
   justify-content: center;
   max-width: 80%;
   margin: auto;
-  color: #4c061d;
+  color: #F0E7D8;
   padding-bottom: 4rem;
 }
 #invalidEmail {
@@ -113,8 +102,8 @@ nav {
 }
 .button {
   background-color: #4c061d;
-  color: #e08f3e;
-  border-color: #e08f3e;
+  color: #A1674A;
+  border-color: #A1674A;
   border-radius: 40px;
   letter-spacing: 0.2rem;
   border-width: 0.2rem;
@@ -122,10 +111,10 @@ nav {
 }
 .button:hover {
   cursor: pointer;
-  color: #4c061d;
-  background-color: #e08f3e;
+  color: #F0E7D8;
+  background-color: #A1674A;
   border-width: 0.2rem;
-  border-color: #4c061d;
+  border-color: #F0E7D8;
 }
 .homePageContainer {
   display: flex;
@@ -137,7 +126,7 @@ nav {
   padding: 2rem;
 }
 .projectImg:hover {
-  transform: scale(1.5);
+  transform: scale(1);
 }
 .homePageImg:hover {
   opacity: 0.8;
@@ -145,9 +134,9 @@ nav {
 
 /* Slideshow container */
 .slideshow-container {
-  height: 200px;
-  width: 200px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: auto;
   padding-bottom: 7rem;
 }
@@ -169,7 +158,7 @@ nav {
   width: auto;
   margin-top: -50px;
   padding: 16px;
-  color: #4c061d;
+  color: #F0E7D8;
   font-weight: bold;
   font-size: 18px;
   border-radius: 7px;
@@ -204,21 +193,21 @@ nav {
   position: absolute;
   width: 2px;
   height: 40px;
-  background-color: #e08f3e;
+  background-color: #A1674A;
   bottom: 99px;
   left: 99px;
   transform-origin: 50% 100%;
 }
 .minute {
   height: 75px;
-  background-color: #e08f3e;
+  background-color: #A1674A;
 }
 .second {
   height: 90px;
   background-color: red;
 }
 .number {
-  color: #e08f3e;
+  color: #A1674A;
   font-size: 1.2rem;
 }
 .twelve {
@@ -268,12 +257,13 @@ nav {
     margin-bottom: 4rem;
   }
   .slideshow-container {
-    height: 400px;
-    width: 400px;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: auto;
     padding-bottom: 7rem;
   }
+  
   .projectImg {
     width: 400px;
     height: 400px;
